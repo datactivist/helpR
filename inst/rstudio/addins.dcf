@@ -1,4 +1,4 @@
 Name: Ask for help
 Description: Ask for help about R and get answers!
 Binding: chatR
-Interactive: true
+Interactive: false
