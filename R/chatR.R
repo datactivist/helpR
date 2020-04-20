@@ -5,8 +5,7 @@ chatR <- function() {
                "<html>",
                "<head>",
                "<meta charset=\"utf-8\"/>",
-               "<script src='https://cdn.slaask.com/chat.js'></script><BR/><script>_slaask.init('463d098847c4a580fdc9ed29ec2d2994');",
-               "</script>")
+               "<script src='https://embed.small.chat/T011ZM17GFQG01252DHAG5.js' async></script>")
   writeLines(toWrite, page)
   close(page)
   rstudioapi::viewer(paste0(tempdir(), "/chatR.html#chat-open"))
